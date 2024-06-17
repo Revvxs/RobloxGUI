@@ -72,7 +72,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamingDrey/Flame-X-v
 local Button = SecondTab:CreateButton({
  Name = "MVS Hacks",
 Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/UjcfSzdH"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheEmptynessProject/EmptynessProject/main/index.lua"))()
 
    end,
 })
