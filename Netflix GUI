@@ -1,0 +1,91 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Netflix Hub",
+   LoadingTitle = "Welcome",
+   LoadingSubtitle = "Coded By revvxs",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Revvxs'sHUB"
+   },
+   KeySystem = false, -- Set this to true to use our key system
+})
+
+local MainTab = Window:CreateTab("Page (1)", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("1")
+local SecondTab = Window:CreateTab("Page (2)", nil) -- Title, Image
+local SecondSection = SecondTab:CreateSection("2")
+
+
+local Button = MainTab:CreateButton({
+   Name = "Azure Modded(DA HOOD)",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()                        
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Blade Ball Auto Parry",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Blox Fruits Farm",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Lemuri4/lemuriscript/main/bloxfruittttttttttt.lua"))()
+
+   end,
+})
+local Button = MainTab:CreateButton({
+   Name = "Inf Yield",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+
+   end,
+})
+local Button = MainTab:CreateButton({
+   Name = "Vape Client",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/Universal.lua"))()
+
+   end,
+})
+
+local Button = SecondTab:CreateButton({
+   Name = "FE Hub",
+   Callback = function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/WinterDinder/oldfehub/main/boronide%20level%20obfuscation%20lol")()                        
+   end,
+})
+
+local Button = SecondTab:CreateButton({
+   Name = "BedWars Hacks",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ham-135/CometV2/main/Loader.lua"))()
+   end,
+})
+
+local Button = SecondTab:CreateButton({
+ Name = "MVS Hacks",
+Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheEmptynessProject/EmptynessProject/main/index.lua"))()
+
+   end,
+})
+local Button = SecondTab:CreateButton({
+ Name = "ADT Hacks",
+Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
+
+   end,
+})
+local Button = SecondTab:CreateButton({
+ Name = "AIMBOT",
+Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-Script/main/Aimbot%20Script%20(Without%20FOV).lua"))()
+
+   end,
+})
