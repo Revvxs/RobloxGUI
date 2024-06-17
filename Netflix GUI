@@ -16,10 +16,11 @@ local MainTab = Window:CreateTab("Page (1)", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("1")
 local SecondTab = Window:CreateTab("Page (2)", nil) -- Title, Image
 local SecondSection = SecondTab:CreateSection("2")
-
+local ThirdTab = Window:CreateTab("Page (3)", nil) -- Title, Image
+local ThirdSection = ThirdTab:CreateSection("3")
 
 local Button = MainTab:CreateButton({
-   Name = "Azure Modded(DA HOOD)",
+   Name = "Azure Modded",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()                        
    end,
@@ -64,14 +65,14 @@ loadstring(game:HttpGet"https://raw.githubusercontent.com/WinterDinder/oldfehub/
 local Button = SecondTab:CreateButton({
    Name = "BedWars Hacks",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Ham-135/CometV2/main/Loader.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamingDrey/Flame-X-v2/main/Flame%20X%20Bedwars%20V2"))()
    end,
 })
 
 local Button = SecondTab:CreateButton({
  Name = "MVS Hacks",
 Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TheEmptynessProject/EmptynessProject/main/index.lua"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/UjcfSzdH"))()
 
    end,
 })
@@ -86,6 +87,40 @@ local Button = SecondTab:CreateButton({
  Name = "AIMBOT",
 Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-Script/main/Aimbot%20Script%20(Without%20FOV).lua"))()
+
+   end,
+})
+local Button = ThirdTab:CreateButton({
+   Name = "Pet Sim Hacks",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/HGIOD/AquaFlowX/main/FlowX'))()                     
+   end,
+})
+
+local Button = ThirdTab:CreateButton({
+   Name = "Xploits Hub",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JackEs1308/xploits/main/Xploits"))() 
+   end,
+})
+
+local Button = ThirdTab:CreateButton({
+ Name = "WestBound Hacks",
+Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Arsenal-Thunder-Client-For-Solara-13092"))()
+
+   end,
+})
+local Button = ThirdTab:CreateButton({
+ Name = "Rizz Script",
+Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mikhailramlal/Rizzer/main/main"))()
+   end,
+})
+local Button = ThirdTab:CreateButton({
+ Name = "Emote Script",
+Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
 
    end,
 })
